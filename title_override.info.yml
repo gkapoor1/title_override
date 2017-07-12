@@ -1,0 +1,7 @@
+name : Title Override 
+description : "Allow page title to be overriden. Uses context to target any drupal path."
+package : User interface
+core : '8.x'
+dependencies:
+  - context
+  - token

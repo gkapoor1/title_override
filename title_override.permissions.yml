@@ -1,0 +1,4 @@
+administer title overrides:
+  title: 'Administer title overrides'
+  description: 'Override page titles on any page.'
+  restrict access: TRUE

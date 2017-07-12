@@ -1,0 +1,27 @@
+title_override_config_overview:
+  path: 'admin/config/user-interface/to_titles'
+requirements:
+  _permission: 'administer title overrides'
+defaults:
+  _title: 'Title Override'
+
+drupal_get_form:
+  path: 'admin/config/user-interface/to_titles/add'
+requirements:
+  _permission: 'administer title overrides'
+defaults:
+  _title: 'Override page titles'
+
+drupal_get_form:
+  path: 'admin/config/user-interface/to_titles/%context'
+requirements:
+  _permission: 'administer title overrides'
+defaults:
+  _title: 'Edit title overrides'
+
+drupal_get_form:
+  path: 'admin/config/user-interface/to_titles/%context/delete'
+requirements:
+  _permission: 'administer title overrides'
+defaults:
+  _title: 'Delete page title overrides'
